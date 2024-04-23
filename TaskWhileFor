@@ -10,9 +10,16 @@ x=int(input("введите 5ти значное число: ")) or 10000
 if len(str(x))<5:
     print("ввели мало цифр, используем 10000")
     x=10000
+    count=0
+    while x>0:
+        x=x//10
+        count +=1
+        print(x)
+    print("цифр в числе: ", count)
 else: 
     print("продолжаем вычислять...")
     count=0
+    print(x)
     while x>0:
         x=x//10
         count +=1
