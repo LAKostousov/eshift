@@ -1,0 +1,2 @@
+string1="Птеса \"НА ДНЕ\""
+print(string1)
