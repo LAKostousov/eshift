@@ -1,0 +1,12 @@
+print ("введите 3 числа:")
+a=int(input("a="))
+b=int(input("b="))
+c=int(input("c="))
+print("максимальное из введенных =",max(a,b,c))
+print("другим методом")
+if a>b and a>c:
+    print("максимальное: ",a)
+elif b>c:
+    print("максимальное: ",b)
+else:
+    print("максимальное: ",c)
