@@ -3,10 +3,13 @@ import random
 a=int(input("Введите число: "))
 print("Ваш ввод: ", a)
 
-x=random.randint(1,100)
+x=random.randint(100,1000)
 print("А наш случайный выбор: ", x)
 
 b=int(input("Введите число: "))
 c=int(input("Введите еще одно число: "))
 d=int(input("И еще, последнее: "))
 print("если перемножить ваши числа, то получим: ", "b*c*d =", int(b*c*d))
+
+r = x % 10
+print(r)
