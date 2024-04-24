@@ -1,0 +1,6 @@
+FIO=str(input("Введите ФИО: "))
+FIO=FIO.split()
+F=FIO[0]
+I=FIO[1]
+O=FIO[2]
+print(F + " " + I[0] + "." + O[0] + ".")
