@@ -1,5 +1,5 @@
 import re
-number=input("Введите номер авто: ") or "A850TT96RUS"
+number=input("Введите номер авто (пример 'A850TT96RUS'): ") or "A850TT96RUS"
 print(number)
 S=re.fullmatch(r"[A-Z]\d{3}[A-Z]{2}\d{2,3}RUS",number)
 if S!="none": print("correct number")
