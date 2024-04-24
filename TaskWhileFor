@@ -5,6 +5,7 @@ while a>0:
     a -=1
 for i in "DONE!": print(i)
 '''
+'''
 ## количество цифр в дес.зап.целого положит числа
 x=int(input("введите 5ти значное число: ")) or 10000
 if len(str(x))<5:
@@ -25,3 +26,14 @@ else:
         count +=1
         print(x)
     print("цифр в числе: ", count)
+'''
+'''
+while True:
+    print ("Введите положительное число: ", n)
+    n=int(input())
+'''
+
+seasons = {1:'Зима', 2:'Весна', 3:'Лето', 4:'Осень'}
+for s in seasons:
+    print('Номер сезона:', s)
+    print('Название', seasons[s])
