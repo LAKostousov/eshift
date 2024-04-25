@@ -1,0 +1,6 @@
+import os
+print (os.getcwd())
+file=open('1.txt','rb')
+contents=file.read()
+print(contents)
+file.close()
