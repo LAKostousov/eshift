@@ -7,3 +7,12 @@ max_word=""
 input("press enter )")
 max_word=max(words)
 print(max_word)
+input("press enter )")
+number = lambda num: num * 2 + num
+print(number(8)) 
+input("press enter )")
+numbs = ['4', '21113', '15', '8']
+max_str = '0'
+for num in numbs:
+    if int(num) > int(max_str): max_str = num 
+print(max_str)
